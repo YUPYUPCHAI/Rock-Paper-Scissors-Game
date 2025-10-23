@@ -1,0 +1,56 @@
+.h2{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 2rem;
+    color: gray;
+    text-align: left;
+}
+body{
+    font-family: Verdana,sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.701);
+}
+
+
+.choices{
+    margin: bottom 30px; ;
+    
+}
+.choices button{
+    font-size: 8rem;
+    min-width: 160px;
+    margin: 0 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.choices button:hover{
+    background-color: rgb(202, 253, 236);
+}
+#computerdisplay{
+    font-size: 2rem;
+    margin-bottom:10px ;
+}
+#playerdisplay{
+    font-size: 2rem;
+    margin:10px 0;
+}
+#resultdisplay{
+    font-size: 4rem;
+    margin: 20px 0;
+}
+.greentext{
+    color: greenyellow;
+}
+.redtext{
+    color: red;
+}
